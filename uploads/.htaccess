@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^(.*)$ .read.php?file=$1 [NC,L,QSA]
